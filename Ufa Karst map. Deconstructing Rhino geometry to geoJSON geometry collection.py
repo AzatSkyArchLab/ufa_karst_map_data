@@ -1,9 +1,8 @@
-﻿
-#Eng
+#Eng Description
 #Deconstruction multiple geometry to GeoJSON geometry collection by using rhino,grasshopper and python
 #Some of description on russian - use google translater :)
 
-#Rus
+#Rus Description 
 #Деконструирование геометрических объектов в коллекцию объектов GeoJSON
 #Author - Azat Ayupov - skyarchschool.ru
 
@@ -28,7 +27,6 @@ import json
 #colorDistrict - color in hex of districtMesh polygons
 #colorKarstAreaMesh - color in hex of districtMesh polygons
 #colorKarstPoint - color in hex of karstPoint
-
 
 #1. Установка точки Земли. Необходимо для установки системы координат WGS84
 earthAnchorPoint = gh.Heron.SetEarthAnchorPoint(True,latitude,longitude)
