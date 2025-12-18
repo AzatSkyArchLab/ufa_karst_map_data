@@ -1,3 +1,6 @@
+# Legacy code - first try to generate geojson by using rhino and grasshopper
+# Here i used heron plugin to get access to map projection as WGS 84 and etc
+
 #Eng Description
 #Deconstruction multiple geometry to GeoJSON geometry collection by using rhino,grasshopper and python
 #Some of description on russian - use google translater :)
@@ -150,4 +153,5 @@ completeName = os.path.join(pathToWrite, fileName + '.geojson')
 file = open(completeName,'w')
 file.write(result)
 file.close()
+
 
